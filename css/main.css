@@ -7,7 +7,7 @@ body{
 
 header{
 	background-color:rgba(157,157,157,1.00);
-	padding:2em;
+	padding:1.5em;
 }
 
 .logo{
@@ -23,4 +23,8 @@ h2, h3{
 
 main{
 	padding:1.5em;
+}
+
+.about{
+	text-align:center;
 }
