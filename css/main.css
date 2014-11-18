@@ -669,10 +669,13 @@ figcaption{
 }
 
 footer{
+	margin-top:3em;
 	background-color:rgba(157,157,157,1.00);
-	padding:1.5em;
 }
 
 .icons{
 	display:inline-block;
-	width:1.5em;
+	width:2em;
+	margin:1.5em;
+	text-align:center;
+}
