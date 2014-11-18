@@ -224,16 +224,16 @@ sub {
 /************************************* GRIDS ******************************************/
 
 .grid {
-  margin: 0;
-  padding: 0;
-  letter-spacing: -0.31em;
-  text-rendering: optimizespeed;
-  display: -webkit-flex;
-  -webkit-flex-flow: row wrap;
-  display: -ms-flexbox;
-  -ms-flex-flow: row wrap;
-  display: flex;
-  flex-flow: row wrap;
+  margin:0;
+  padding:0;
+  letter-spacing:-0.31em;
+  text-rendering:optimizespeed;
+  display:-webkit-flex;
+  -webkit-flex-flow:row wrap;
+  display:-ms-flexbox;
+  -ms-flex-flow:row wrap;
+  display:flex;
+  flex-flow:row wrap;
 }
 
 .grid-bottom {
@@ -652,4 +652,16 @@ header{
 
 .img-flex{
 	max-width:100%;
+	height:auto;
+}
+
+figure{
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+
+figcaption{
+	margin-bottom:-4em;
+	z-index:1;
 }
