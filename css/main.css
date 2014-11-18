@@ -659,6 +659,13 @@ header{
 	height:auto;
 }
 
+@media only screen and (min-width: 60em) {
+	.about{
+		width:600px;
+		margin:auto;
+	}
+}
+
 figure{
 	margin:0;
 	padding:0;
