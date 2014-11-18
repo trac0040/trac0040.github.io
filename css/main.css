@@ -680,6 +680,16 @@ figure{
 }
 
 figcaption{
+	background:rgba(0,0,0,0.8);
+	color:white;
+	display:table;
+	height:100%;
+	left:0;
+	opacity:100;
+	position:absolute;
+	right:0;
+	top:0;
+	z-index:100;
 }
 
 footer{
