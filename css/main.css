@@ -670,14 +670,16 @@ figcaption{
 
 footer{
 	background-color:rgba(157,157,157,1.00);
-}
-
-ul{
-	text-decoration:none;
+	bottom:0;
 	text-align:center;
 }
 
 .icons{
 	display:inline-block;
 	width:2em;
+}
+
+.copyright{
+	color:rgba(255,255,255,1.00);
+	padding:1.5em;
 }
