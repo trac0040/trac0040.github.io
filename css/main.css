@@ -234,6 +234,8 @@ sub {
   -ms-flex-flow:row wrap;
   display:flex;
   flex-flow:row wrap;
+  -webkit-align-content: center;
+   align-content: center;
 }
 
 .grid-bottom {
