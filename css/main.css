@@ -20,23 +20,24 @@ html {
 
 /********************************** TYPOGRAPHY *****************************************/
 
-html {
-  font: normal 100%/1.5 'Quicksand', sans-serif;
+html{
+  font:normal 100%/1.5 'Questrial', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6,
-.brand {
-  font-family: 'Quicksand', sans-serif;
+.brand{
+  font-family:'Quicksand', sans-serif;
+  text-transform:uppercase;
 }
 
-.brand-2 {
-  font-family: 'Questrial', sans-serif;
+.brand-2{
+  font-family:'Questrial', sans-serif;
 }
 
 @media only screen and (min-width: 60em) {
 
-  html {
-    font-size: 110%;
+  html{
+    font-size:110%;
   }
 
 }
@@ -641,6 +642,7 @@ body{
 }
 
 header{
+	color:rgba(255,255,255,1.00);
 	background-color:rgba(157,157,157,1.00);
 	padding:1.5em;
 }
@@ -664,6 +666,13 @@ figure{
 }
 
 figcaption{
-	margin-bottom:-4em;
-	z-index:1;
 }
+
+footer{
+	background-color:rgba(157,157,157,1.00);
+	padding:1.5em;
+}
+
+.icons{
+	display:inline-block;
+	width:1.5em;
