@@ -670,22 +670,24 @@ figcaption{
 
 footer{
 	background-color:rgba(157,157,157,1.00);
-	bottom:0;
 	margin-top:3em;
 	text-align:center;
+	padding:1.5em;
 }
 
 ul{
-	text-align:center;
-	text-decoration:none;
+	display:block;
+	margin:0;
+	padding:0;
+	list-style:none;
 }
 
 .icons{
 	display:inline-block;
-	width:3em;
+	width:35px;
+	margin:1.5em;
 }
 
 .copyright{
 	color:rgba(255,255,255,1.00);
-	padding:1.5em;
 }
