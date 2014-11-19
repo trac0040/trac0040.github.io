@@ -679,11 +679,14 @@ figure{
 
 figcaption{
 	position:relative;
-	background-color:rgba(0,0,0,.50);
+	background-color:rgba(0,0,0,0.5);
 	margin-top:-16em;
-	margin-bottom:0;
 	padding-left:0.5em;
 	padding-right:0.5em;
+	-ms-transform: skewY(-2deg);
+    -webkit-transform: skewY(-2deg);
+    transform: skewY(-2deg);
+	
 }
 
 @media only screen and (min-width: 25em) {
