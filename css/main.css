@@ -653,7 +653,10 @@ header{
 	margin-left:auto;
 	margin-right:auto;
 	width:3em;
-	border:none;
+}
+
+a img{
+	border:none; 
 }
 
 .img-flex{
@@ -675,14 +678,14 @@ header{
 	}
 }
 
-figure{
+.fig{
 	margin:0;
 	padding:0;
 	overflow:hidden;
 	position:relative;
 }
 
-figcaption{
+.figcap{
 	position:absolute;
 	background-color:rgba(0,0,0,0.5);
 	margin-top:-4em;
@@ -697,21 +700,33 @@ figcaption{
 	
 }
 
-figure:hover figcaption {
+.figcap[data-state="active"] {
 	opacity:1;
 	margin-top:-14em;
 }
 
 @media only screen and (min-width: 25em) {
-	figcaption{
+	.figcap{
 		margin-top:7em;
 		padding: 0.5em 1.5em;
 	}
 	
-	figure:hover figcaption {
+	.figcap[data-state="active"] {
 	opacity:1;
 	margin-top:-17em;
 	}
+}
+
+@media only screen and (min-width: 25em) {
+	.figcap[data-state="active"]{
+		opacity:1;
+		margin-top:-17em;
+	}
+	
+	.fig:hover .figcap{
+		opacity:1;
+		margin-top:-17em;
+	}	
 }
 
 @media only screen and (min-width: 85em) {
@@ -739,7 +754,6 @@ ul{
 	display:inline-block;
 	width:35px;
 	margin:1.5em;
-	border:none;
 	transition:all 0.1s ease;
 }
 
