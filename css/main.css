@@ -235,8 +235,6 @@ sub {
   -ms-flex-flow:row wrap;
   display:flex;
   flex-flow:row wrap;
-  -webkit-align-content: center;
-   align-content: center;
 }
 
 .grid-bottom {
@@ -681,11 +679,13 @@ figure{
 
 figcaption{
 	position:relative;
+	background-color:rgba(0,0,0,.50);
 	margin-top:-16em;
 	margin-bottom:0;
 	padding-left:0.5em;
 	padding-right:0.5em;
 }
+
 @media only screen and (min-width: 25em) {
 	figcaption{
 		padding-left:1.5em;
