@@ -10,7 +10,7 @@ $(document).ready(function() {
 });
 
 $(window).scroll(function(){
-		if ($(this).scrollTop() > 200) {
+		if ($(this).scrollTop() > 160) {
 			$('.scroll-to-top').fadeIn(200,"linear");
 		} else {
 			$('.scroll-to-top').fadeOut(200,"linear");
