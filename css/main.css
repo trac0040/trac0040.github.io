@@ -653,6 +653,7 @@ header{
 	margin-left:auto;
 	margin-right:auto;
 	width:3em;
+	text-decoration:none;
 }
 
 .img-flex{
@@ -738,6 +739,7 @@ ul{
 	display:inline-block;
 	width:35px;
 	margin:1.5em;
+	text-decoration:none;
 }
 
 .copyright{
