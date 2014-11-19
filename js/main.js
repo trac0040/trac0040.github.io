@@ -11,14 +11,14 @@ $(document).ready(function() {
 
 $(window).scroll(function(){
 		if ($(this).scrollTop() > 200) {
-			$('.scroll-to-top').fadeIn();
+			$('.scroll-to-top').fadeIn(200,"linear");
 		} else {
-			$('.scroll-to-top').fadeOut();
+			$('.scroll-to-top').fadeOut(200,"linear");
 		}
 	});
 	
 	$('.scroll-to-top').click(function(){
-		$('html, body').animate({scrollTop : 0},800);
+		$('html, body').animate({scrollTop : 0},600);
 		return false;
 	});
 });
