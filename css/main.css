@@ -636,7 +636,7 @@ sub {
 
 }
 
-/**************************************************** END GRIDS ***********************************************/
+/**************************************************** MAIN CONTENT ***********************************************/
 
 body{
 	margin:0;
@@ -678,6 +678,7 @@ a img{
 	}
 }
 
+/******************************************************PORTFOLIO ELEMENTS**************************************/
 .fig{
 	margin:0;
 	padding:0;
@@ -690,9 +691,11 @@ a img{
 	background-color:rgba(0,0,0,0.5);
 	margin-top:-4em;
 	padding:0 0.5em;
+	-moz-transform: skewY(-2deg);
+	-webkit-transform: skewY(-2deg);
+	-o-transform: skewY(-2deg);
 	-ms-transform: skewY(-2deg);
-    -webkit-transform: skewY(-2deg);
-    transform: skewY(-2deg);
+	transform: skewY(-2deg);
 	opacity:0;
 	-webkit-transition:all 0.2s ease;
 	-moz-transition:all 0.2s ease;
@@ -712,13 +715,13 @@ a img{
 		padding: 0.5em 1.5em;
 	}
 	
-	.figcap[data-state="active"] {
+	.figcap[data-state="active"]{
 	opacity:1;
 	margin-top:-17em;
 	}
 }
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 60em) {
 	.figcap[data-state="active"]{
 		opacity:1;
 		margin-top:-17em;
@@ -736,6 +739,8 @@ a img{
 		padding-right:5%;
 	}
 }
+
+/**************************************************** FOOTER ELEMENTS *************************************/
 
 footer{
 	background-color:rgba(157,157,157,1.00);
@@ -764,8 +769,12 @@ ul{
 
 .icons:hover{
 	opacity:0.5;
-	transform:scale(1.5);
-	}
+	-moz-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	transform: scale(1.5);
+}
 
 .copyright{
 	color:rgba(255,255,255,1.00);
