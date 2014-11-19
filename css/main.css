@@ -683,7 +683,14 @@ figcaption{
 	position:relative;
 	margin-top:-16em;
 	margin-bottom:0;
-	padding:0.5em;
+	padding-left:0.5em;
+	padding-right:0.5em;
+}
+@media only screen and (min-width: 25em) {
+	figcaption{
+		padding-left:1.5em;
+		padding-right:1.5em;
+	}
 }
 
 @media only screen and (min-width: 85em) {
