@@ -653,12 +653,12 @@ header{
 	margin-left:auto;
 	margin-right:auto;
 	width:3em;
+	border:none;
 }
 
 .img-flex{
 	max-width:100%;
 	height:auto;
-	border:none;
 }
 
 @media only screen and (min-width: 38em) {
@@ -739,7 +739,14 @@ ul{
 	display:inline-block;
 	width:35px;
 	margin:1.5em;
+	border:none;
+	transition:all 0.1s ease;
 }
+
+.icons:hover{
+	opacity:0.5;
+	transform:scale(1.5);
+	}
 
 .copyright{
 	color:rgba(255,255,255,1.00);
