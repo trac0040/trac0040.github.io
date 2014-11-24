@@ -20,6 +20,13 @@ html {
 
 /********************************** TYPOGRAPHY *****************************************/
 
+/**** COLOURS *****/
+Mint(181,236,196)
+Orange(239,151,111)
+Yellow(228,187,105)
+Blue(65,202,192)
+/******/
+
 html{
   font:normal 100%/1.5 'Questrial', sans-serif;
 }
@@ -235,7 +242,7 @@ sub {
   -ms-flex-flow:row wrap;
   display:flex;
   flex-flow:row wrap;
-   -webkit-align-items: center;
+  -webkit-align-items: center;
   -ms-align-items: center;
   align-items: center;
 }
@@ -643,8 +650,15 @@ body{
 }
 
 header{
+	background: #e4bb69;
+	background:-moz-linear-gradient(-45deg,  #e4bb69 0%, #ef976f 100%);
+	background:-webkit-gradient(linear, left top, right bottom, color-stop(0%,#e4bb69), color-stop(100%,#ef976f));
+	background:-webkit-linear-gradient(-45deg,  #e4bb69 0%,#ef976f 100%);
+	background:-o-linear-gradient(-45deg,  #e4bb69 0%,#ef976f 100%);
+	background:-ms-linear-gradient(-45deg,  #e4bb69 0%,#ef976f 100%);
+	background:linear-gradient(135deg,  #e4bb69 0%,#ef976f 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4bb69', endColorstr='#ef976f',GradientType=1 );
 	color:rgba(255,255,255,1.00);
-	background-color:rgba(157,157,157,1.00);
 	padding:1.5em;
 }
 
@@ -659,7 +673,14 @@ header{
 	position:fixed;
 	top:0;
 	width:100%;
-	background-color:rgba(157,157,157,1.00);
+	background: #e4bb69;
+	background:-moz-linear-gradient(-45deg,  #e4bb69 0%, #ef976f 100%);
+	background:-webkit-gradient(linear, left top, right bottom, color-stop(0%,#e4bb69), color-stop(100%,#ef976f));
+	background:-webkit-linear-gradient(-45deg,  #e4bb69 0%,#ef976f 100%);
+	background:-o-linear-gradient(-45deg,  #e4bb69 0%,#ef976f 100%);
+	background:-ms-linear-gradient(-45deg,  #e4bb69 0%,#ef976f 100%);
+	background:linear-gradient(135deg,  #e4bb69 0%,#ef976f 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4bb69', endColorstr='#ef976f',GradientType=1 );
 	padding:0.75em;
 	border:none;
 	z-index:100;
@@ -700,8 +721,9 @@ a img{
 }
 
 .figcap{
+	color:rgba(181,236,196,1.00);
 	position:absolute;
-	background-color:rgba(0,0,0,0.5);
+	background-color:rgba(0,0,0,0.8);
 	margin-top:-4em;
 	padding:0 0.5em;
 	-moz-transform: skewY(-2deg);
@@ -756,7 +778,14 @@ a img{
 /**************************************************** FOOTER ELEMENTS *************************************/
 
 footer{
-	background-color:rgba(157,157,157,1.00);
+	background: #e4bb69;
+	background:-moz-linear-gradient(-45deg,  #e4bb69 0%, #ef976f 100%);
+	background:-webkit-gradient(linear, left top, right bottom, color-stop(0%,#e4bb69), color-stop(100%,#ef976f));
+	background:-webkit-linear-gradient(-45deg,  #e4bb69 0%,#ef976f 100%);
+	background:-o-linear-gradient(-45deg,  #e4bb69 0%,#ef976f 100%);
+	background:-ms-linear-gradient(-45deg,  #e4bb69 0%,#ef976f 100%);
+	background:linear-gradient(135deg,  #e4bb69 0%,#ef976f 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4bb69', endColorstr='#ef976f',GradientType=1 );
 	margin-top:3em;
 	text-align:center;
 	padding:1.5em;
