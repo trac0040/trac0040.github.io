@@ -18,10 +18,21 @@ html {
     box-sizing: inherit;
 }
 
+/**** COLOURS *****/
+Mint(181,236,196)
+Orange(239,151,111)
+Yellow(228,187,105)
+Blue(65,202,192)
+/******/
+
 /********************************** ACCESSIBILITY *****************************************/
 
 a:focus{
   outline:2px solid #fff;
+}
+
+a:visited{
+	color:rgba(65,202,192,1.0);
 }
 
 .skip-links{
@@ -40,13 +51,6 @@ a:focus{
 }
 
 /********************************** TYPOGRAPHY *****************************************/
-
-/**** COLOURS *****/
-Mint(181,236,196)
-Orange(239,151,111)
-Yellow(228,187,105)
-Blue(65,202,192)
-/******/
 
 html{
   font:normal 100%/1.5 'Questrial', sans-serif;
@@ -842,4 +846,12 @@ ul{
 
 .copyright{
 	color:rgba(255,255,255,1.00);
+}
+
+.error{
+	background:url(../images/deer.jpg) center center no-repeat;
+}
+
+.border{
+	border:medium solid rgba(65,202,192,1.0);
 }
