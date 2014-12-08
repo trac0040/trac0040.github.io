@@ -32,7 +32,7 @@ a:focus{
 }
 
 a:visited{
-	color:rgba(65,202,192,1.0);
+	color:#000;
 }
 
 .skip-links{
