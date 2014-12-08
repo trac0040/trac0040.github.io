@@ -735,7 +735,8 @@ a img{
 @media only screen and (min-width: 60em) {
 	.about{
 		width:800px;
-		margin:auto;
+		margin:3em auto;
+		border:2px solid rgba(65,202,192,1.0);
 	}
 }
 
