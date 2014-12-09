@@ -737,7 +737,12 @@ a img{
 	.about{
 		width:800px;
 		margin:3em auto;
-		border:2px solid rgba(65,202,192,1.0);
+		background:url(../images/forest.jpg) no-repeat fixed center;
+		-moz-transform: skewY(-2deg);
+		-webkit-transform: skewY(-2deg);
+		-o-transform: skewY(-2deg);
+		-ms-transform: skewY(-2deg);
+		transform: skewY(-2deg);
 	}
 	
 	.error{
@@ -856,7 +861,7 @@ ul{
 }
 
 .error{
-	background:url(../images/deer.jpg) center center no-repeat;
+	background:url(../images/deer.jpg) no-repeat fixed center;
 }
 
 .border{
