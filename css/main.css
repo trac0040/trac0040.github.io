@@ -727,7 +727,7 @@ a img{
 }
 
 @media only screen and (min-width: 38em) {
-	.about, .error{
+	.about{
 		padding-left:3em;
 		padding-right:3em;
 	}
@@ -744,11 +744,7 @@ a img{
 		-ms-transform: skewY(-2deg);
 		transform: skewY(-2deg);
 	}
-	
-	.error{
-		width:800px;
-		margin:auto;
-	}
+
 }
 
 /******************************************************PORTFOLIO ELEMENTS**************************************/
@@ -858,10 +854,6 @@ ul{
 
 .copyright{
 	color:rgba(255,255,255,1.00);
-}
-
-.error{
-	background:url(../images/deer.jpg) no-repeat fixed center;
 }
 
 .border{
