@@ -9,8 +9,10 @@ Twitter: @martatraczyk
 
 #THANKS
 
-Downloaded code thing (copyrightsign) Some Person: http://codething.com
-Stock Image (copyrightsign) Another Person: http://gettyimages.com
+Gradient tool for backgrounds: http://www.colorzilla.com/gradient-editor/
+CSS generator (For angled elements): http://css3generator.com/
+This very helpful tutorial for my scroll to top button: http://www.paulund.co.uk/how-to-create-an-animated-scroll-to-top-with-jquery
+Thomas J. Bradley for teaching me everything I know about coding
 
 # TOOLS
 
