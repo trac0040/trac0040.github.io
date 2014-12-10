@@ -67,6 +67,10 @@ h1, h2, h3, h4, h5, h6,
   font-family:'Questrial', sans-serif;
 }
 
+.white{
+	color:rgba(255,255,255,1.00);
+}
+
 @media only screen and (min-width: 60em) {
 
   html{
@@ -685,9 +689,6 @@ header{
 	background:-o-linear-gradient(-45deg,  #e4bb69 0%,#ef976f 100%);
 	background:-ms-linear-gradient(-45deg,  #e4bb69 0%,#ef976f 100%);
 	background:linear-gradient(135deg,  #e4bb69 0%,#ef976f 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4bb69', endColorstr='#ef976f',GradientType=1 );
-	color:rgba(255,255,255,1.00);
-	padding:1.5em;
 }
 
 .logo{
@@ -708,16 +709,11 @@ header{
 	background:-o-linear-gradient(-45deg,  #e4bb69 0%,#ef976f 100%);
 	background:-ms-linear-gradient(-45deg,  #e4bb69 0%,#ef976f 100%);
 	background:linear-gradient(135deg,  #e4bb69 0%,#ef976f 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4bb69', endColorstr='#ef976f',GradientType=1 );
 	padding:0.75em;
 	border:none;
 	z-index:100;
 	text-decoration:none;
 	display:none;
-}
-
-a img{
-	border:none; 
 }
 
 .img-flex{
@@ -814,7 +810,6 @@ a img{
 	background:-o-linear-gradient(-45deg,  #e4bb69 0%,#ef976f 100%);
 	background:-ms-linear-gradient(-45deg,  #e4bb69 0%,#ef976f 100%);
 	background:linear-gradient(135deg,  #e4bb69 0%,#ef976f 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4bb69', endColorstr='#ef976f',GradientType=1 );
 	margin-top:3em;
 	text-align:center;
 	padding:1.5em;
@@ -844,10 +839,6 @@ ul{
 	-o-transform: scale(1.5);
 	-ms-transform: scale(1.5);
 	transform: scale(1.5);
-}
-
-.copyright{
-	color:rgba(255,255,255,1.00);
 }
 
 .border{
