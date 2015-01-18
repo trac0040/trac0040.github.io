@@ -36,8 +36,7 @@ a:visited{
 }
 
 
-a:active{
-	text-decoration: none;
+a img{
 	border: none;
 }
 
