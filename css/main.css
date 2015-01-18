@@ -35,6 +35,12 @@ a:visited{
 	color:#000;
 }
 
+
+a:active{
+	text-decoration: none;
+	border: none;
+}
+
 .skip-links{
 	margin:0;
 	padding:0;
@@ -733,11 +739,6 @@ header{
 		margin:3em auto;
 	}
 
-}
-
-a {
-	text-decoration: none;
-	border: none;
 }
 
 /******************************************************PORTFOLIO ELEMENTS**************************************/
