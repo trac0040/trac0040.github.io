@@ -689,6 +689,7 @@ body{
 }
 
 header{
+	background-image: url("bg.jpg");
 	background:#fff;
 }
 
